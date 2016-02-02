@@ -11,6 +11,7 @@ public class Module {
 	private String moduleName;//模块名称
 	private long position;//权限位置
 	private String remark;//模块描述
+	
 	public String getModuleName() {
 		return moduleName;
 	}
