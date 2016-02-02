@@ -12,7 +12,7 @@ private String docKey;  //文档编号  varchar  用于生成树
 private String docChapter;  //章节名  varchar
 private String docText;  //搜索内容  varchar
 private String docType;  //类型  varchar
-private Text docFile;  //文件  Text
+private String docFile;  //文件  Text
 public int getDocid() {
 	return docid;
 }
@@ -43,10 +43,11 @@ public String getDocType() {
 public void setDocType(String docType) {
 	this.docType = docType;
 }
-public Text getDocFile() {
+
+public String getDocFile() {
 	return docFile;
 }
-public void setDocFile(Text docFile) {
+public void setDocFile(String docFile) {
 	this.docFile = docFile;
 }
 @Override
