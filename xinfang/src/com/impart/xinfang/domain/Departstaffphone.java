@@ -1,15 +1,15 @@
 package com.impart.xinfang.domain;
-/**
- * 10²¿ÃÅµç»°£¨departstaffphone£©
+/**10
+ * éƒ¨é—¨ç”µè¯ï¼ˆdepartstaffphoneï¼‰
  * @author Administrator
  *
  */
 public class Departstaffphone {
-	private String departStaffid;  //²¿ÃÅ±àºÅ  varchar2(20)  not null
-	private int itemid;  //×Ó±íid  number(4, 0)  not null 
-	private String phoneType;  //µç»°ÀàĞÍ  varchar2(20)
-	private String phone;  //µç»°ºÅÂë  varchar2(20)
-	private int mainFlag;  //Ö÷ÁªÏµ±êÖ¾  number(1, 0)
+	private String departStaffid;  //éƒ¨é—¨ç¼–å·  varchar2(20)  not null
+	private int itemid;  //å­è¡¨id  number(4, 0)  not null 
+	private String phoneType;  //ç”µè¯ç±»å‹  varchar2(20)
+	private String phone;  //ç”µè¯å·ç   varchar2(20)
+	private int mainFlag;  //ä¸»è”ç³»æ ‡å¿—  number(1, 0)
 	public String getDepartStaffid() {
 		return departStaffid;
 	}

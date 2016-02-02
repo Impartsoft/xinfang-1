@@ -1,14 +1,14 @@
 package com.impart.xinfang.domain;
-/**
- * 6»ù´¡ĞÅÏ¢±í£¨baseinfo£©
+/**6
+ * åŸºç¡€ä¿¡æ¯è¡¨ï¼ˆbaseinfoï¼‰
  * @author Administrator
  *
  */
 public class Baseinfo {
-private int baseInfoid;  //±àºÅnumber(4, 0) not null
-private String baseInfoType;  //ÀàĞÍ  varchar2(20)
-private String baseInfoName; //Ãû³Æ  varchar2(30) not null
-private int isShow;  //ÊÇ·ñÏÔÊ¾ number(1, 0)
+private int baseInfoid;  //ç¼–å·number(4, 0) not null
+private String baseInfoType;  //ç±»å‹  varchar2(20)
+private String baseInfoName; //åç§°  varchar2(30) not null
+private int isShow;  //æ˜¯å¦æ˜¾ç¤º number(1, 0)
 public int getBaseInfoid() {
 	return baseInfoid;
 }
