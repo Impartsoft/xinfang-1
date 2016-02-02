@@ -1,14 +1,14 @@
 package com.impart.xinfang.domain;
 
 /**
- * ÎÊÌâÀàĞÍ±í
- * @author Ö£±¦ÁÖ
+ * é—®é¢˜ç±»å‹è¡¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class AcceptType {
 
-	private String acceptTypeid;//±¨¾¯ÀàĞÍid
-	private String acceptType;//±¨¾¯ÀàĞÍ
+	private String acceptTypeid;//æŠ¥è­¦ç±»å‹id
+	private String acceptType;//æŠ¥è­¦ç±»å‹
 	
 	public String getAcceptType() {
 		return acceptType;

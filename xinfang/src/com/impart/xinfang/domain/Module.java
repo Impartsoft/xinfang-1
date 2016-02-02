@@ -1,16 +1,16 @@
 package com.impart.xinfang.domain;
 
 /**
- * È¨ÏŞÄ£¿é
- * @author Ö£±¦ÁÖ
+ * æƒé™æ¨¡å—
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class Module {
 
-	private int moduleid;//Ä£¿é±àºÅ
-	private String moduleName;//Ä£¿éÃû³Æ
-	private long position;//È¨ÏŞÎ»ÖÃ
-	private String remark;//Ä£¿éÃèÊö
+	private int moduleid;//æ¨¡å—ç¼–å·
+	private String moduleName;//æ¨¡å—åç§°
+	private long position;//æƒé™ä½ç½®
+	private String remark;//æ¨¡å—æè¿°
 	
 	public String getModuleName() {
 		return moduleName;

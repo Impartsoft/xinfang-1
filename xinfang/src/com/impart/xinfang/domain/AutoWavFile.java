@@ -1,20 +1,20 @@
 package com.impart.xinfang.domain;
 
 /**
- * ×Ô¶¯ÓïÒô±í
- * @author Ö£±¦ÁÖ
+ * è‡ªåŠ¨è¯­éŸ³è¡¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class AutoWavFile {
 
-	private String autoWavFileid;//ÓïÒô±íid
-	private String wavFileName;//ÓïÒôÎÄ¼şÃû
-	private String wavTitle;//ÓïÒô±êÌâ
-	private String wavDescribe;//ÄÚÈİÃèÊö
-	private int keyPress;//°´¼ü
-	private boolean seatService;//ÊÇ·ñ×ª×øÏ¯
-	private boolean ttsFlag;//ÊÇ·ñtts
-	private boolean recFlag;//ÊÇ·ñ²¥·ÅÂ¼Òô
+	private String autoWavFileid;//è¯­éŸ³è¡¨id
+	private String wavFileName;//è¯­éŸ³æ–‡ä»¶å
+	private String wavTitle;//è¯­éŸ³æ ‡é¢˜
+	private String wavDescribe;//å†…å®¹æè¿°
+	private int keyPress;//æŒ‰é”®
+	private boolean seatService;//æ˜¯å¦è½¬åå¸­
+	private boolean ttsFlag;//æ˜¯å¦tts
+	private boolean recFlag;//æ˜¯å¦æ’­æ”¾å½•éŸ³
 	public String getWavFileName() {
 		return wavFileName;
 	}

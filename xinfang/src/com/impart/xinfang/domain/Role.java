@@ -1,16 +1,16 @@
 package com.impart.xinfang.domain;
 
 /**
- * ½ÇÉ«
- * @author Ö£±¦ÁÖ
+ * è§’è‰²
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class Role {
 
 	private int roleid;//id
-	private String roleName;//½ÇÉ«Ãû³Æ
-	private String roleDescribe;//ÃèÊö
-	private long roleRight;//È¨ÏŞ
+	private String roleName;//è§’è‰²åç§°
+	private String roleDescribe;//æè¿°
+	private long roleRight;//æƒé™
 	
 	public String getRoleName() {
 		return roleName;

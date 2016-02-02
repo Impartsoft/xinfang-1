@@ -3,78 +3,78 @@ package com.impart.xinfang.domain;
 import java.util.Date;
 
 /**
- * ¾Ù±¨Í¶Ëß±í
- * @author Ö£±¦ÁÖ
+ * ä¸¾æŠ¥æŠ•è¯‰è¡¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-01
  */
 public class Accept {
 
-	private String acceptid;//±àºÅ
-	private Date acceptDate;//ÊÜÀíÈÕÆÚ
-	private String callNum;//µç»°ºÅÂë
-	private String acceptType;//ÊÜÀíÀàĞÍ
-	private String callType;//Í¶Ëß·½Ê½
-	private String fname;//·´Ó³ÈË
-	private String faddress;//µØÖ·
-	private String fcontact;//ÁªÏµ·½Ê½
-	private String backContact;//´ğ¸´·½Ê½
-	private String femail;//·´Ó³ÈËemail
-	private int fnum;//·´Ó³ÈËÊıÁ¿
-	private int cfqc;//ÊÇ·ñÓĞÖØ¸´¼ş
-	private String fmatter;//·´Ó³ÄÚÈİ
-	private String bname;//±»·´Ó³ÈË
-	private String bunit;//±»·´Ó³ÈËµ¥Î»
-	private String baddress;//±»·´Ó³ÈËµØÖ·
-	private String bjb;//±»·´Ó³ÈË¼¶±ğ
-	private String allowNet;//ÔÊĞíÍøÉÏ·¢²¼
-	private String cbdw;//´ı³Ğ°ìµ¥Î»
-	private String lzdw;//Á÷×ªµ¥Î»
-	private String result;//°ìÀí½á¹û
-	private int acceptState;//°¸¼ş×´Ì¬
-	private String secret;//±£ÃÜµÈ¼¶
-	private String remark;//±¸×¢
-	private String circulate;//Á÷×ª¹ı³Ì
-	private String userid;//×øÏ¯¹¤ºÅ
-	private String recFile;//Â¼ÒôÎÄ¼şÃû
-	private String reader;//¶ÁÕß£¬Ö¸Ê¾°¸¼şÔÚË­ÊÖÖĞ
-	private int objectState;//Ìá½»×´Ì¬
-	private boolean sfnm;//ÊÇ·ñÄäÃû
-	private boolean sfyj;//ÊÇ·ñÒª¼ş
-	private boolean sfsw;//ÊÇ·ñÉæÍâ
-	private String xm;//ÏîÄ¿
-	private String xmzl;//ÏîÄ¿×ÓÀà
-	private int isExchanged;//Ìî0
-	private String postCode;//ÓÊÕş±àÂë
-	private String user_type;//·´Ó³ÈËÉí·İ
-	private String farea;//·´Ó³ÈËµØÇø
-	private String cfjid;//ÖØ¸´±àºÅ
-	private String onturn;//ÂÖÖµ½ÓÌı
-	private String onturnDepart;//ÂÖÖµ²¿ÃÅ
-	private String onturnLeader;//ÂÖÖµÁìµ¼
-	private int cfcs;//ÖØ¸´´ÎÊı
-	private String hfjg;//»Ø·Ã½á¹û
-	private String hfryj;//»Ø·ÃÈËÒâ¼û
-	private Date hfsj;//»Ø·ÃÊ±¼ä
-	private String sfxcxd;//ÏÖ³¡ĞĞ¶¯
-	private String lzblqk;//ÂÖÖµ°ìÀíÇé¿ö
-	private String lzbmlb;//ÂÖÖµ²¿ÃÅÀà±ğ
-	private String dealType;//°¸¼ş´¦ÀíÀàĞÍ,È·ÈÏ¡¢ÖØ±¨¡¢Îó±¨
-	private String ffzsqtdwlx;//·Ö·¢×ªËÍÆäËûµ¥Î»ÀàĞÍ£¬¼Í¼ì¡¢ÆäËû¡¢¿Õ
-	private String ffzsqtdwmc;//·Ö·¢×ªËÍÆäËûµ¥Î»Ãû³Æ£¬¼Í¼ì²¿ÃÅ¡¢ÆäËûµ¥Î»¡¢¿Õ
-	private Date ffsx;//·Ö·¢Ê±ÏŞ£¬Ä¬ÈÏÒ»¸ö¹¤×÷ÈÕ
-	private boolean sfff;//ÊÇ·ñ·Ö·¢
-	private Date blsx;//°ìÀíÊ±ÏŞ£¬°ì½áÊ±¼äÒªÇó
-	private boolean sfbj;//ÊÇ·ñ°ì½á
-	private Date fksx;//·´À¡Ê±ÏŞ£¬5¸ö¹¤×÷ÈÕ¸øÍ¶ËßÈË
-	private boolean sffk;//ÊÇ·ñ·´À¡
-	private Date hcsx;//ºË²éÊ±ÏŞ£¬24Ğ¡Ê±£¨ÌØÊâÀàĞÍ£©
-	private boolean sfhc;//ÊÇ·ñºË²é
-	private boolean sfps;//ÊÇ·ñÅúÊ¾
-	private boolean sfjl;//ÊÇ·ñ½±Àø
-	private boolean sfzacl;//ÊÇ·ñ×¨°¸´¦Àí
-	private boolean sfgd;//ÊÇ·ñ¹éµµ
-	private String gdlxid;//¹éµµÀàĞÍid
-	private String gdms;//¹éµµÃèÊö
+	private String acceptid;//ç¼–å·
+	private Date acceptDate;//å—ç†æ—¥æœŸ
+	private String callNum;//ç”µè¯å·ç 
+	private String acceptType;//å—ç†ç±»å‹
+	private String callType;//æŠ•è¯‰æ–¹å¼
+	private String fname;//åæ˜ äºº
+	private String faddress;//åœ°å€
+	private String fcontact;//è”ç³»æ–¹å¼
+	private String backContact;//ç­”å¤æ–¹å¼
+	private String femail;//åæ˜ äººemail
+	private int fnum;//åæ˜ äººæ•°é‡
+	private int cfqc;//æ˜¯å¦æœ‰é‡å¤ä»¶
+	private String fmatter;//åæ˜ å†…å®¹
+	private String bname;//è¢«åæ˜ äºº
+	private String bunit;//è¢«åæ˜ äººå•ä½
+	private String baddress;//è¢«åæ˜ äººåœ°å€
+	private String bjb;//è¢«åæ˜ äººçº§åˆ«
+	private String allowNet;//å…è®¸ç½‘ä¸Šå‘å¸ƒ
+	private String cbdw;//å¾…æ‰¿åŠå•ä½
+	private String lzdw;//æµè½¬å•ä½
+	private String result;//åŠç†ç»“æœ
+	private int acceptState;//æ¡ˆä»¶çŠ¶æ€
+	private String secret;//ä¿å¯†ç­‰çº§
+	private String remark;//å¤‡æ³¨
+	private String circulate;//æµè½¬è¿‡ç¨‹
+	private String userid;//åå¸­å·¥å·
+	private String recFile;//å½•éŸ³æ–‡ä»¶å
+	private String reader;//è¯»è€…ï¼ŒæŒ‡ç¤ºæ¡ˆä»¶åœ¨è°æ‰‹ä¸­
+	private int objectState;//æäº¤çŠ¶æ€
+	private boolean sfnm;//æ˜¯å¦åŒ¿å
+	private boolean sfyj;//æ˜¯å¦è¦ä»¶
+	private boolean sfsw;//æ˜¯å¦æ¶‰å¤–
+	private String xm;//é¡¹ç›®
+	private String xmzl;//é¡¹ç›®å­ç±»
+	private int isExchanged;//å¡«0
+	private String postCode;//é‚®æ”¿ç¼–ç 
+	private String user_type;//åæ˜ äººèº«ä»½
+	private String farea;//åæ˜ äººåœ°åŒº
+	private String cfjid;//é‡å¤ç¼–å·
+	private String onturn;//è½®å€¼æ¥å¬
+	private String onturnDepart;//è½®å€¼éƒ¨é—¨
+	private String onturnLeader;//è½®å€¼é¢†å¯¼
+	private int cfcs;//é‡å¤æ¬¡æ•°
+	private String hfjg;//å›è®¿ç»“æœ
+	private String hfryj;//å›è®¿äººæ„è§
+	private Date hfsj;//å›è®¿æ—¶é—´
+	private String sfxcxd;//ç°åœºè¡ŒåŠ¨
+	private String lzblqk;//è½®å€¼åŠç†æƒ…å†µ
+	private String lzbmlb;//è½®å€¼éƒ¨é—¨ç±»åˆ«
+	private String dealType;//æ¡ˆä»¶å¤„ç†ç±»å‹,ç¡®è®¤ã€é‡æŠ¥ã€è¯¯æŠ¥
+	private String ffzsqtdwlx;//åˆ†å‘è½¬é€å…¶ä»–å•ä½ç±»å‹ï¼Œçºªæ£€ã€å…¶ä»–ã€ç©º
+	private String ffzsqtdwmc;//åˆ†å‘è½¬é€å…¶ä»–å•ä½åç§°ï¼Œçºªæ£€éƒ¨é—¨ã€å…¶ä»–å•ä½ã€ç©º
+	private Date ffsx;//åˆ†å‘æ—¶é™ï¼Œé»˜è®¤ä¸€ä¸ªå·¥ä½œæ—¥
+	private boolean sfff;//æ˜¯å¦åˆ†å‘
+	private Date blsx;//åŠç†æ—¶é™ï¼ŒåŠç»“æ—¶é—´è¦æ±‚
+	private boolean sfbj;//æ˜¯å¦åŠç»“
+	private Date fksx;//åé¦ˆæ—¶é™ï¼Œ5ä¸ªå·¥ä½œæ—¥ç»™æŠ•è¯‰äºº
+	private boolean sffk;//æ˜¯å¦åé¦ˆ
+	private Date hcsx;//æ ¸æŸ¥æ—¶é™ï¼Œ24å°æ—¶ï¼ˆç‰¹æ®Šç±»å‹ï¼‰
+	private boolean sfhc;//æ˜¯å¦æ ¸æŸ¥
+	private boolean sfps;//æ˜¯å¦æ‰¹ç¤º
+	private boolean sfjl;//æ˜¯å¦å¥–åŠ±
+	private boolean sfzacl;//æ˜¯å¦ä¸“æ¡ˆå¤„ç†
+	private boolean sfgd;//æ˜¯å¦å½’æ¡£
+	private String gdlxid;//å½’æ¡£ç±»å‹id
+	private String gdms;//å½’æ¡£æè¿°
 	public Date getAcceptDate() {
 		return acceptDate;
 	}

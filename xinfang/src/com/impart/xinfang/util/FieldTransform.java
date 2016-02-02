@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 /**
- * Õë¶ÔÒ»Ğ©±íÖĞµÄ×Ö¶ÎÀàĞÍ½øĞĞ×ª»»
- * @author Ö£±¦ÁÖ
+ * é’ˆå¯¹ä¸€äº›è¡¨ä¸­çš„å­—æ®µç±»å‹è¿›è¡Œè½¬æ¢
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class FieldTransform {
@@ -15,18 +15,18 @@ public class FieldTransform {
 	private static final HashMap<Integer, String> states = new HashMap<>();
 	
 	static{
-		states.put(0, "ÒÑÊÜÀí");
-		states.put(1, "´ıÅúÊ¾");
-		states.put(2, "´ı·Ö·¢");
-		states.put(3, "°ìÀíÖĞ");
-		states.put(4, "°ìÀíÍê³É");
-		states.put(5, "ÒÑ·´À¡");
-		states.put(6, "ÒÑ½±Àø");
-		states.put(7, "ÒÑ¹éµµ");
+		states.put(0, "å·²å—ç†");
+		states.put(1, "å¾…æ‰¹ç¤º");
+		states.put(2, "å¾…åˆ†å‘");
+		states.put(3, "åŠç†ä¸­");
+		states.put(4, "åŠç†å®Œæˆ");
+		states.put(5, "å·²åé¦ˆ");
+		states.put(6, "å·²å¥–åŠ±");
+		states.put(7, "å·²å½’æ¡£");
 	}
 
 	/**
-	 * ½«°¸¼ş×´Ì¬×Ö¶Î×ª»¯ÎªÏàÓ¦µÄ×Ö·û´®ÃèÊö
+	 * å°†æ¡ˆä»¶çŠ¶æ€å­—æ®µè½¬åŒ–ä¸ºç›¸åº”çš„å­—ç¬¦ä¸²æè¿°
 	 * @param state
 	 * @return
 	 */

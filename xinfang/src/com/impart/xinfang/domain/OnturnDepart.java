@@ -1,16 +1,16 @@
 package com.impart.xinfang.domain;
 
 /**
- * ÂÖÖµ²¿ÃÅ
- * @author Ö£±¦ÁÖ
+ * è½®å€¼éƒ¨é—¨
+ * @author éƒ‘å®æ—
  * @version 1.0 016-02-02
  */
 public class OnturnDepart {
 
-	private String departid;//²¿ÃÅid
-	private String departType;//ÀàĞÍ
-	private String departName;//²¿ÃÅÃû³Æ
-	private int sort;//ÅÅĞò
+	private String departid;//éƒ¨é—¨id
+	private String departType;//ç±»å‹
+	private String departName;//éƒ¨é—¨åç§°
+	private int sort;//æ’åº
 	public String getDepartType() {
 		return departType;
 	}

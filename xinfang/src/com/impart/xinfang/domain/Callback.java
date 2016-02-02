@@ -3,19 +3,19 @@ package com.impart.xinfang.domain;
 import java.util.Date;
 
 /**
- * »Ø·Ã¼ÇÂ¼±í
- * @author Ö£±¦ÁÖ
+ * å›è®¿è®°å½•è¡¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class Callback {
 
-	private String acceptid;//ÊÜÀí±àºÅ
-	private String itemid;//»Ø·Ã±àºÅ
-	private Date callTime;//»Ø·ÃÊ±¼ä
-	private String phone;//µç»°ºÅÂë
-	private String content;//»Ø·ÃÄÚÈİ
-	private String satisfAction;//»Ø·ÃÂúÒâ¶È
-	private String remark;//±¸×¢
+	private String acceptid;//å—ç†ç¼–å·
+	private String itemid;//å›è®¿ç¼–å·
+	private Date callTime;//å›è®¿æ—¶é—´
+	private String phone;//ç”µè¯å·ç 
+	private String content;//å›è®¿å†…å®¹
+	private String satisfAction;//å›è®¿æ»¡æ„åº¦
+	private String remark;//å¤‡æ³¨
 	public String getAcceptid() {
 		return acceptid;
 	}

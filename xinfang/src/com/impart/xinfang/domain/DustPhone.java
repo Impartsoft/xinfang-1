@@ -3,21 +3,21 @@ package com.impart.xinfang.domain;
 import java.util.Date;
 
 /**
- * É§ÈÅµç»°±í
- * @author Ö£±¦ÁÖ
+ * éªšæ‰°ç”µè¯è¡¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class DustPhone {
 
 	private String dustPhoneid;//id
-	private String phone;//µç»°ºÅÂë
-	private String phone_owner;//ËùÓĞÕß
-	private String phone_addr;//µØÖ·
-	private Date start_date;//Ëø¶¨ÈÕÆÚ
-	private Date end_date;//½âËøÈÕÆÚ
-	private int lockTime;//Ëø¶¨Ê±³¤
-	private String staff_name;//Ëø¶¨ÈË
-	private int phoneType;//µç»°ÀàĞÍ£¬Ä¬ÈÏÎª0
+	private String phone;//ç”µè¯å·ç 
+	private String phone_owner;//æ‰€æœ‰è€…
+	private String phone_addr;//åœ°å€
+	private Date start_date;//é”å®šæ—¥æœŸ
+	private Date end_date;//è§£é”æ—¥æœŸ
+	private int lockTime;//é”å®šæ—¶é•¿
+	private String staff_name;//é”å®šäºº
+	private int phoneType;//ç”µè¯ç±»å‹ï¼Œé»˜è®¤ä¸º0
 	public String getPhone() {
 		return phone;
 	}

@@ -1,19 +1,19 @@
 package com.impart.xinfang.domain;
 
 /**
- * ÁªÏµ²¿ÃÅ
- * @author Ö£±¦ÁÖ
+ * è”ç³»éƒ¨é—¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class DepartStaff {
 
-	private String departStaffid;//±àºÅ
-	private String departStaffName;//²¿ÃÅÃû³Æ
-	private String departStaffAddr;//µØÖ·
-	private int departStaffFlag;//²¿ÃÅÀàĞÍ
-	private String staffDuty;//Ö°Îñ
-	private String describe;//ÃèÊö
-	private int sortOrder;//ÅÅĞò
+	private String departStaffid;//ç¼–å·
+	private String departStaffName;//éƒ¨é—¨åç§°
+	private String departStaffAddr;//åœ°å€
+	private int departStaffFlag;//éƒ¨é—¨ç±»å‹
+	private String staffDuty;//èŒåŠ¡
+	private String describe;//æè¿°
+	private int sortOrder;//æ’åº
 	public String getDepartStaffName() {
 		return departStaffName;
 	}

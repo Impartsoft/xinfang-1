@@ -1,18 +1,18 @@
 package com.impart.xinfang.domain;
 
 /**
- * ÓÃ»§±í
- * @author Ö£±¦ÁÖ
+ * ç”¨æˆ·è¡¨
+ * @author éƒ‘å®æ—
  * @version 1.0 2016-02-02
  */
 public class Users {
 
-	private int userid;//±àºÅ
-	private String userName;//ĞÕÃû
-	private String password;//ÃÜÂë
-	private int roleid;//½ÇÉ«id
-	private String userType;//ÓÃ»§ÀàĞÍ
-	private String depart;//ËùÊô²¿ÃÅ
+	private int userid;//ç¼–å·
+	private String userName;//å§“å
+	private String password;//å¯†ç 
+	private int roleid;//è§’è‰²id
+	private String userType;//ç”¨æˆ·ç±»å‹
+	private String depart;//æ‰€å±éƒ¨é—¨
 	public String getUserName() {
 		return userName;
 	}
